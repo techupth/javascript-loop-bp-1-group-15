@@ -29,7 +29,7 @@ for (key in studentsScore) {
     highestName = key;
   }
 }
-console.log(`${highestName} has highest score, which is ${highestScore} points.`)
+console.log(`${highestName} has highest score, which is ${highestScore} points`)
 
 // Find the lowest score.
 let lowestName = '';
@@ -40,4 +40,4 @@ for (key in studentsScore) {
     lowestName = key;
   }
 }
-console.log(`${lowestName} has lowest score, which is ${lowestScore} points.`)
+console.log(`${lowestName} has lowest score, which is ${lowestScore} points`)
